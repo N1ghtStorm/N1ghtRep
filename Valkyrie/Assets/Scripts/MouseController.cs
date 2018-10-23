@@ -45,6 +45,8 @@ public class MouseController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
+
+        //движение игрока
         
 		if(Input.GetMouseButton(0))
         {
@@ -85,8 +87,7 @@ public class MouseController : MonoBehaviour {
         if (Input.GetAxis("Vertical") > 0 || Input.GetAxis("Vertical") < 0 || Input.GetAxis("Horizontal") > 0 || Input.GetAxis("Horizontal") < 0)
         {
             move = false;
-            //GameObject.Destroy(Point.gameObject);
-
+            //GameObject.Destroy(Point.);
         }   
 
 
